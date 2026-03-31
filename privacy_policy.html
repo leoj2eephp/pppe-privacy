@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad – PPPE Curicó</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      color: #212121;
+      background: #fafafa;
+    }
+
+    .wrapper {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    header {
+      background: #F07A2A;
+      color: #fff;
+      padding: 36px 24px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1.9rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #E65100;
+      margin-top: 44px;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid #F07A2A;
+    }
+
+    p { margin-bottom: 12px; }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 12px;
+    }
+
+    li { margin-bottom: 6px; }
+
+    a { color: #E65100; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .highlight-box {
+      background: #FFF3E0;
+      border-left: 4px solid #F07A2A;
+      padding: 14px 18px;
+      border-radius: 4px;
+      margin: 16px 0;
+    }
+
+    .highlight-box p { margin-bottom: 0; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 20px;
+      font-size: 0.94rem;
+    }
+
+    th, td {
+      border: 1px solid #e0e0e0;
+      padding: 10px 14px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #FBE9D7;
+      font-weight: 600;
+      color: #BF360C;
+    }
+
+    tr:nth-child(even) td { background: #FFFDE7; }
+
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid #e0e0e0;
+      font-size: 0.88rem;
+      color: #757575;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.4rem; }
+      table, thead, tbody, th, td, tr { display: block; }
+      th { display: none; }
+      td { border: none; border-bottom: 1px solid #e0e0e0; }
+      td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        display: block;
+        color: #BF360C;
+        margin-bottom: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Política de Privacidad</h1>
+  <p>PPPE Curicó &mdash; Aplicación Móvil</p>
+</header>
+
+<div class="wrapper">
+
+  <!-- ──────────────────────────────────────────── -->
+  <h2>1. Información general</h2>
+  <p>
+    La presente Política de Privacidad describe cómo <strong>PPPE Curicó</strong>
+    (en adelante, «la aplicación» o «la App») recopila, utiliza, almacena y
+    protege la información personal de sus usuarios, de conformidad con la
+    legislación chilena vigente (Ley N.° 19.628 sobre Protección de la Vida
+    Privada) y las buenas prácticas internacionales en materia de privacidad
+    de datos.
+  </p>
+  <p>
+    Al instalar y utilizar la aplicación, el usuario acepta los términos
+    descritos en este documento. Si no está de acuerdo con alguna de las
+    condiciones aquí expuestas, le solicitamos que no utilice la aplicación.
+  </p>
+
+  <div class="highlight-box">
+    <p>
+      <strong>Responsable del tratamiento de datos:</strong><br />
+      Leandro — Desarrollador independiente<br />
+      Correo de contacto: <a href="mailto:leodevs90@gmail.com">leodevs90@gmail.com</a>
+    </p>
+  </div>
+
+
+  <!-- ──────────────────────────────────────────── -->
+  <h2>2. Datos personales que recopilamos</h2>
+  <p>
+    La aplicación recopila únicamente los datos estrictamente necesarios para
+    su correcto funcionamiento. A continuación se detalla qué información se
+    obtiene, cómo se obtiene y con qué finalidad:
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Dato recopilado</th>
+        <th>Forma de obtención</th>
+        <th>Finalidad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Dato recopilado"><strong>Nombre completo</strong></td>
+        <td data-label="Forma de obtención">Formulario de registro / login</td>
+        <td data-label="Finalidad">Identificar al usuario dentro de la plataforma y personalizar la experiencia</td>
+      </tr>
+      <tr>
+        <td data-label="Dato recopilado"><strong>Correo electrónico</strong></td>
+        <td data-label="Forma de obtención">Formulario de registro / login</td>
+        <td data-label="Finalidad">Autenticación, comunicación con el usuario y recuperación de cuenta</td>
+      </tr>
+      <tr>
+        <td data-label="Dato recopilado"><strong>Token de dispositivo FCM</strong></td>
+        <td data-label="Forma de obtención">Generado automáticamente por Firebase Cloud Messaging</td>
+        <td data-label="Finalidad">Enviar notificaciones push al dispositivo del usuario (sin identificar a la persona)</td>
+      </tr>
+      <tr>
+        <td data-label="Dato recopilado"><strong>Datos de uso de la app</strong></td>
+        <td data-label="Forma de obtención">Google Analytics for Firebase (automático)</td>
+        <td data-label="Finalidad">Analizar el comportamiento general de uso para mejorar la aplicación</td>
+      </tr>
+      <tr>
+        <td data-label="Dato recopilado"><strong>Datos de conectividad</strong></td>
+        <td data-label="Forma de obtención">Sistema operativo del dispositivo (lectura local)</td>
+        <td data-label="Finalidad">Verificar disponibilidad de conexión a internet antes de realizar operaciones</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+    La aplicación <strong>no recopila</strong> datos de geolocalización, datos
+    biométricos, información de pagos, listas de contactos ni ningún otro
+    tipo de dato sensible.
+  </p>
+  <p>
+    La aplicación <strong>no contiene publicidad de terceros ni compras
+    dentro de la aplicación (in-app purchases)</strong>.
+  </p>
+
+
+  <!-- ──────────────────────────────────────────── -->
+  <h2>3. Almacenamiento y protección de los datos</h2>
+  <p>
+    Los datos personales proporcionados por el usuario (nombre y correo
+    electrónico) se almacenan en servidores seguros administrados por el
+    desarrollador, con acceso restringido y protegido.
+  </p>
+  <p>
+    De forma complementaria, la aplicación utiliza los servicios de
+    <strong>Google Firebase</strong> (propiedad de Google LLC, Estados Unidos)
+    como infraestructura tecnológica para el envío de notificaciones push y
+    análisis de uso. Firebase Opera en servidores certificados con los
+    estándares de seguridad ISO 27001, SOC 1, SOC 2 y SOC 3, entre otros.
+  </p>
+  <p>
+    En el dispositivo del usuario, la sesión de acceso se almacena de forma
+    segura mediante <strong>almacenamiento cifrado</strong>
+    (<em>Flutter Secure Storage</em>), que utiliza el Keychain en iOS y el
+    Android Keystore en Android. Esto protege las credenciales de sesión de
+    accesos no autorizados.
+  </p>
+  <p>
+    Se aplican las siguientes medidas técnicas y organizativas de seguridad:
+  </p>
+  <ul>
+    <li>Comunicación cifrada mediante HTTPS/TLS en todas las transmisiones de datos.</li>
+    <li>Almacenamiento local cifrado con las APIs de seguridad del sistema operativo.</li>
+    <li>Acceso a datos restringido exclusivamente al personal autorizado.</li>
+    <li>Infraestructura de terceros (Firebase) con certificaciones de seguridad internacionales.</li>
+  </ul>
+
+
+  <!-- ──────────────────────────────────────────── -->
+  <h2>4. Notificaciones push (Firebase Cloud Messaging)</h2>
+  <p>
+    La aplicación utiliza <strong>Firebase Cloud Messaging (FCM)</strong>,
+    un servicio de Google LLC, para el envío de notificaciones push. Mediante
+    este servicio, la aplicación puede enviar mensajes al dispositivo del
+    usuario incluso cuando la aplicación está cerrada o en segundo plano.
+  </p>
+  <p>
+    Para habilitar este servicio, FCM genera automáticamente un
+    <em>token de registro</em> único asociado al dispositivo (no a la persona).
+    Este token es transmitido a nuestros servidores y se utiliza exclusivamente
+    para enrutar las notificaciones al dispositivo correspondiente.
+  </p>
+  <p>
+    <strong>¿Qué notificaciones enviamos?</strong> Las notificaciones push se
+    utilizan para comunicar información relevante relacionada con el uso de la
+    plataforma, tales como asignaciones, turnos u otras novedades operativas.
+  </p>
+  <p>
+    <strong>¿Cómo desactivar las notificaciones push?</strong> El usuario puede
+    desactivar las notificaciones push en cualquier momento desde la
+    configuración de su dispositivo:
+  </p>
+  <ul>
+    <li>
+      <strong>Android:</strong> Ajustes → Notificaciones → PPPE Curicó →
+      desactivar notificaciones.
+    </li>
+    <li>
+      <strong>iOS:</strong> Ajustes → Notificaciones → PPPE Curicó →
+      desactivar «Permitir notificaciones».
+    </li>
+  </ul>
+  <p>
+    La desactivación de notificaciones no afecta el funcionamiento principal
+    de la aplicación. Para más información sobre FCM, consulte la
+    <a href="https://firebase.google.com/support/privacy" target="_blank"
+       rel="noopener noreferrer">Política de Privacidad de Firebase</a>.
+  </p>
+
+
+  <!-- ──────────────────────────────────────────── -->
+  <h2>5. Google Analytics for Firebase</h2>
+  <p>
+    La aplicación integra <strong>Google Analytics for Firebase</strong>,
+    un servicio de análisis de uso proporcionado por Google LLC. Este servicio
+    recopila datos de forma agregada y anónima sobre cómo los usuarios
+    interactúan con la aplicación, con el fin de detectar errores, mejorar
+    la experiencia y optimizar las funcionalidades.
+  </p>
+  <p>Entre los datos que Google Analytics puede recopilar se incluyen:</p>
+  <ul>
+    <li>Número de sesiones y duración de uso.</li>
+    <li>Pantallas visitadas dentro de la aplicación.</li>
+    <li>Sistema operativo y versión del dispositivo.</li>
+    <li>País o región de acceso (sin precisión de ubicación exacta).</li>
+    <li>Eventos de interacción con la interfaz (botones, navegación).</li>
+    <li>Información sobre fallos y errores de la aplicación.</li>
+  </ul>
+  <p>
+    Estos datos se procesan de manera que no permiten identificar
+    individualmente a ningún usuario. Google Analytics no recibe el nombre ni
+    el correo electrónico del usuario de la aplicación.
+  </p>
+  <p>
+    <strong>¿Cómo desactivar Google Analytics?</strong> El usuario puede
+    limitar la recopilación de datos por parte de Google Analytics mediante:
+  </p>
+  <ul>
+    <li>
+      <strong>Android:</strong> Ajustes → Google → Anuncios → activar
+      «Inhabilitar personalización de anuncios» o
+      Ajustes → Privacidad → Avanzado → «Diagnóstico» y desactivar el
+      envío de datos de diagnóstico.
+    </li>
+    <li>
+      <strong>iOS:</strong> Ajustes → Privacidad y seguridad → Seguimiento →
+      desactivar el seguimiento para la aplicación PPPE Curicó.
+    </li>
+    <li>
+      Descargando el complemento de inhabilitación de Google Analytics
+      disponible en
+      <a href="https://tools.google.com/dlpage/gaoptout" target="_blank"
+         rel="noopener noreferrer">tools.google.com/dlpage/gaoptout</a>.
+    </li>
+  </ul>
+  <p>
+    Para más información, consulte la
+    <a href="https://policies.google.com/privacy" target="_blank"
+       rel="noopener noreferrer">Política de Privacidad de Google</a> y la
+    <a href="https://firebase.google.com/support/privacy" target="_blank"
+       rel="noopener noreferrer">Política de Privacidad de Firebase</a>.
+  </p>
+
+
+  <!-- ──────────────────────────────────────────── -->
+  <h2>6. Compartición de datos con terceros</h2>
+  <p>
+    La aplicación <strong>no vende, alquila ni comercializa</strong> los datos
+    personales de sus usuarios con ningún tercero.
+  </p>
+  <p>
+    Los datos pueden ser compartidos únicamente con los siguientes proveedores
+    de servicios tecnológicos, en la medida estrictamente necesaria para el
+    funcionamiento de la aplicación:
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Proveedor</th>
+        <th>Servicio</th>
+        <th>Datos compartidos</th>
+        <th>Política de privacidad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Proveedor"><strong>Google LLC (Firebase)</strong></td>
+        <td data-label="Servicio">Firebase Cloud Messaging, Google Analytics</td>
+        <td data-label="Datos compartidos">Token de dispositivo, datos de uso anónimos</td>
+        <td data-label="Política de privacidad">
+          <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">firebase.google.com/support/privacy</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+    No se utilizan otros SDKs ni servicios de análisis, publicidad o
+    seguimiento de terceros más allá de los indicados en esta sección.
+  </p>
+  <p>
+    En casos excepcionales, los datos podrían ser divulgados si así lo exige
+    la ley, una orden judicial o una autoridad competente.
+  </p>
+
+
+  <!-- ──────────────────────────────────────────── -->
+  <h2>7. Retención de datos</h2>
+  <p>
+    Los datos personales del usuario se conservarán mientras la cuenta esté
+    activa y sean necesarios para la prestación del servicio. Cuando el usuario
+    solicite la eliminación de su cuenta, sus datos personales serán eliminados
+    de nuestros sistemas en un plazo máximo de <strong>30 días hábiles</strong>,
+    salvo que exista una obligación legal que requiera su conservación por un
+    período mayor.
+  </p>
+  <p>
+    Los datos de uso recopilados por Google Analytics se rigen por la política
+    de retención propia de Google, configurable desde la consola de Firebase.
+  </p>
+
+
+  <!-- ──────────────────────────────────────────── -->
+  <h2>8. Público objetivo y menores de edad</h2>
+  <p>
+    La aplicación está dirigida a <strong>público general mayor de 13 años</strong>.
+    No está diseñada para ser utilizada por menores de 13 años y no recopila
+    de manera intencional datos personales de menores de esa edad.
+  </p>
+  <p>
+    Si el responsable toma conocimiento de que se han recopilado datos de un
+    menor de 13 años sin el consentimiento verificable de su tutor legal,
+    dichos datos serán eliminados a la brevedad posible. Si usted es padre,
+    madre o tutor y cree que su hijo/a ha proporcionado información personal,
+    contáctenos a <a href="mailto:leodevs90@gmail.com">leodevs90@gmail.com</a>.
+  </p>
+
+
+  <!-- ──────────────────────────────────────────── -->
+  <h2>9. Derechos del usuario</h2>
+  <p>
+    De conformidad con la normativa vigente, el usuario tiene los siguientes
+    derechos respecto de sus datos personales:
+  </p>
+  <ul>
+    <li>
+      <strong>Acceso:</strong> Solicitar información sobre qué datos personales
+      suyos están siendo tratados.
+    </li>
+    <li>
+      <strong>Rectificación:</strong> Solicitar la corrección de datos
+      inexactos o incompletos.
+    </li>
+    <li>
+      <strong>Eliminación («derecho al olvido»):</strong> Solicitar la
+      supresión de sus datos personales cuando ya no sean necesarios para los
+      fines para los que fueron recopilados.
+    </li>
+    <li>
+      <strong>Oposición:</strong> Oponerse al tratamiento de sus datos en
+      determinadas circunstancias.
+    </li>
+    <li>
+      <strong>Portabilidad:</strong> Solicitar una copia de sus datos en un
+      formato estructurado y de uso común.
+    </li>
+    <li>
+      <strong>Revocación del consentimiento:</strong> Retirar el consentimiento
+      prestado en cualquier momento, sin que ello afecte la licitud del
+      tratamiento previo.
+    </li>
+  </ul>
+  <p>
+    Para ejercer cualquiera de estos derechos, el usuario puede enviar una
+    solicitud por correo electrónico a
+    <a href="mailto:leodevs90@gmail.com">leodevs90@gmail.com</a>, indicando su
+    nombre completo, el derecho que desea ejercer y —si corresponde— la
+    dirección de correo electrónico asociada a su cuenta. Se dará respuesta en
+    un plazo máximo de 30 días hábiles.
+  </p>
+
+
+  <!-- ──────────────────────────────────────────── -->
+  <h2>10. Seguridad de la información</h2>
+  <p>
+    Aplicamos medidas de seguridad técnicas y organizativas razonables para
+    proteger los datos personales frente a accesos no autorizados, pérdidas,
+    alteraciones o divulgaciones indebidas. Sin embargo, ningún sistema de
+    transmisión de información por internet es completamente seguro, por lo
+    que no podemos garantizar una seguridad absoluta.
+  </p>
+  <p>
+    En caso de detectar una brecha de seguridad que afecte a sus datos
+    personales, el desarrollador notificará al usuario afectado a través de
+    los medios disponibles en un plazo razonable.
+  </p>
+
+
+  <!-- ──────────────────────────────────────────── -->
+  <h2>11. Transferencias internacionales de datos</h2>
+  <p>
+    Al utilizar servicios de Google (Firebase Cloud Messaging y Google
+    Analytics), ciertos datos pueden ser transferidos y procesados en servidores
+    ubicados fuera de Chile, principalmente en Estados Unidos. Google LLC se
+    adhiere al Marco de Privacidad de Datos UE-EE. UU. y aplica cláusulas
+    contractuales tipo que garantizan un nivel adecuado de protección.
+  </p>
+  <p>
+    Para más información, consulte la
+    <a href="https://policies.google.com/privacy" target="_blank"
+       rel="noopener noreferrer">Política de Privacidad de Google</a>.
+  </p>
+
+
+  <!-- ──────────────────────────────────────────── -->
+  <h2>12. Cambios en esta política</h2>
+  <p>
+    El desarrollador se reserva el derecho de actualizar esta Política de
+    Privacidad en cualquier momento. Las modificaciones entrarán en vigor desde
+    el momento de su publicación en esta página. Se recomienda revisar esta
+    política periódicamente para estar informado de posibles cambios.
+  </p>
+  <p>
+    Cuando los cambios sean significativos, se notificará al usuario mediante
+    una notificación en la aplicación o por correo electrónico.
+  </p>
+
+
+  <!-- ──────────────────────────────────────────── -->
+  <h2>13. Contacto</h2>
+  <p>
+    Si tiene preguntas, dudas o desea ejercer alguno de sus derechos en
+    relación con esta Política de Privacidad, puede contactarnos a través de:
+  </p>
+  <div class="highlight-box">
+    <p>
+      <strong>Correo electrónico:</strong>
+      <a href="mailto:leodevs90@gmail.com">leodevs90@gmail.com</a><br />
+      <strong>Responsable:</strong> Leandro<br />
+      <strong>Aplicación:</strong> PPPE Curicó
+    </p>
+  </div>
+
+
+  <!-- ──────────────────────────────────────────── -->
+  <footer>
+    <p>
+      Última actualización: <strong>31 de marzo de 2026</strong>
+    </p>
+    <p style="margin-top:8px;">
+      © 2026 PPPE Curicó — Todos los derechos reservados.
+    </p>
+  </footer>
+
+</div><!-- /wrapper -->
+</body>
+</html>
